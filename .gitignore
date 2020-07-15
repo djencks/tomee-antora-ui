@@ -1,0 +1,7 @@
+build
+node_modules
+public
+work
+.idea
+package-lock.json
+tomee-tomee-antora-ui-*

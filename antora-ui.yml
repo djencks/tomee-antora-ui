@@ -1,0 +1,4 @@
+sources:
+  - path: '@antora/antora-ui-default'
+  - path: ./
+bundle-name: tomee-antora-ui
