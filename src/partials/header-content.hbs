@@ -1,12 +1,36 @@
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">{{site.title}}</a>
+      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">
+        <span>
+          <img src="{{siteRootPath}}/_/img/logo-active.png">
+        </span>
+        {{site.title}}</a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
         <span></span>
       </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{siteRootPath}}">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="{{{relativize "/tomee/8.0/docs.html"}}}">Documentation</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{{relativize "/tomee/8.0/docs.html"}}}">TomEE 8</a>
+            <a class="navbar-item" href="{{{relativize "/tomee/7.1/docs.html"}}}">TomEE 7.1</a>
+            <a class="navbar-item" href="{{{relativize "/tomee/7.0/docs.html"}}}">TomEE 7</a>
+          </div>
+        </div>
+        <a class="navbar-item" href="{{{relativize "/common/community/index.html"}}}">Community</a>
+        <a class="navbar-item" href="{{{relativize "/common/security/security.html"}}}">Security</a>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="{{{relativize "/common/download-ng.html"}}}">Downloads</a>
+          </span>
+        </div>
+      </div>
     </div>
   </nav>
 </header>

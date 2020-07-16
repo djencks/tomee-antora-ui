@@ -1,10 +1,15 @@
 :root {
   /* colors */
+  --color-white-trans: rgba(255, 255, 255, 0.5);
   --color-dark-maroon: #80287a;
   --color-dark-blue-grey: rgba(28, 36, 65, 0.93);
   /* navbar */
-  --navbar-background: var(--color-dark-blue-grey);
-  --navbar-font-color: var(--color-dark-maroon);
+  --navbar-background: var(--color-smoke-50);
+  --navbar_hover-background: var(--color-smoke-70);
+  --navbar-font-color: var(--color-gray-50);
   /* footer */
   --footer-background-image: linear-gradient(to right, #f59423, #e2632a, #ca2136, #832778);
+  --footer-font-color: var(--color-white-trans);
+  --footer-heading-font-color: var(--color-white);
+  --footer-link-font-color: var(--color-jet-80);
 }
