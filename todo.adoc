@@ -1,0 +1,9 @@
+= Antora UI todo
+
+== Consider if colors and proportions should be adjusted.
+
+* It may look better to have a darker more intense color in the header to match the footer.
+
+== Determine what links should be present in the footer.
+
+This probably requires realistic navigation to be developed first.
