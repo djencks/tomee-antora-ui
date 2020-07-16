@@ -1,4 +1,7 @@
 = Antora UI todo
+:done: &#x2713;
+
+// Mark items with {done} when complete
 
 == Consider if colors and proportions should be adjusted.
 
