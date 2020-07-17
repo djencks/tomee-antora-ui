@@ -1,11 +1,11 @@
 = Antora UI todo
 :done: &#x2713;
-
 // Mark items with {done} when complete
+:toc: auto
 
 == Consider if colors and proportions should be adjusted.
 
-* It may look better to have a darker more intense color in the header to match the footer.
+It may look better to have a darker more intense color in the header to match the footer.
 
 == Determine what links should be present in the footer.
 
