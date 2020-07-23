@@ -1,4 +1,11 @@
 sources:
   - path: '@antora/antora-ui-default'
   - path: ./
+
+css:
+  - site.css
+  - home.css
+
+#preview: true
+
 bundle-name: tomee-antora-ui

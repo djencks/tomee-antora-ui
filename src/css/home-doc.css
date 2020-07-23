@@ -1,0 +1,110 @@
+.body {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -4.5rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.body a {
+  color: var(--color-white);
+}
+
+h1.page {
+  font-size: 80px;
+  font-weight: 400;
+  color: var(--color-dark-maroon);
+  margin-top: 20.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.page-subtitle {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 0.1rem;
+  margin-bottom: 4.25rem;
+}
+
+.openblock.block-row {
+  margin-top: 4.25rem;
+  margin-bottom: 7rem;
+}
+
+.openblock.block-row > .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.openblock.row-block {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  min-width: 22rem;
+  margin: 1rem;
+  padding: 1rem;
+  height: 17rem;
+}
+
+.openblock.row-block > .content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.openblock.row-block > .content:hover {
+  transform: translateY(-4rem);
+  transition: transform 0.3s;
+}
+
+.block1 {
+  background-image: url("../img/table-1.jpg");
+}
+
+.block1:hover {
+  background-image: url("../img/table-1-hover.jpg");
+}
+
+.block2 {
+  background-image: url("../img/table-2.jpg");
+}
+
+.block2:hover {
+  background-image: url("../img/table-2-hover.jpg");
+}
+
+.block3 {
+  background-image: url("../img/table-3.jpg");
+}
+
+.block3:hover {
+  background-image: url("../img/table-3-hover.jpg");
+}
+
+.row-block-title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10rem;
+}
+
+.openblock.row-block:hover .row-block-title {
+  display: none;
+}
+
+.openblock.row-block .paragraph {
+  display: none;
+}
+
+.openblock.row-block:hover .paragraph {
+  display: inherit;
+}
+
+.paragraph.first {
+  margin-top: 12rem;
+}
