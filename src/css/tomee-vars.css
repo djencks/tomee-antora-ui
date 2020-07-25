@@ -12,4 +12,7 @@
   --footer-font-color: var(--color-white-trans);
   --footer-heading-font-color: var(--color-white);
   --footer-link-font-color: var(--color-jet-80);
+  /* navbar like footer */
+  --navbar-like-footer-background-image: linear-gradient(to right, #f59423, #e2632a, #ca2136, #832778);
+  --navbar-like-footer-font-color: var(--color-white);
 }

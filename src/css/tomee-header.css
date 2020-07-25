@@ -1,0 +1,19 @@
+nav.navbar {
+  background-image: var(--navbar-like-footer-background-image);
+}
+
+.navbar-brand .navbar-item:first-child {
+  color: var(--navbar-like-footer-font-color);
+}
+
+.navbar-end > .navbar-item {
+  color: var(--navbar-like-footer-font-color);
+}
+
+.navbar-end .navbar-link {
+  color: var(--navbar-like-footer-font-color);
+}
+
+.navbar-end .navbar-link::after {
+  border-color: var(--navbar-like-footer-font-color);
+}
