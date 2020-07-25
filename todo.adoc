@@ -7,6 +7,8 @@
 
 It may look better to have a darker more intense color in the header to match the footer.
 
+WARNING: Updates done as proposal in header to look like footer. If is ok, could update this item as _done_.
+
 == Determine what links should be present in the footer.
 
 This probably requires realistic navigation to be developed first.
